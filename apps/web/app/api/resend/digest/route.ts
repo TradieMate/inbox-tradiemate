@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { sendDigestEmail } from "@inboxzero/resend";
+import { sendDigestEmail } from "@tradiemate/resend";
 import { withEmailAccount, withError } from "@/utils/middleware";
 import { env } from "@/env";
 import { captureException, SafeError } from "@/utils/error";

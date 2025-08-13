@@ -10,8 +10,8 @@ import { env } from "@/env";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Log in | Inbox Zero",
-  description: "Log in to Inbox Zero.",
+  title: "Log in | Tradiemate AI",
+  description: "Log in to Tradiemate AI.",
   alternates: { canonical: "/login" },
 };
 
@@ -34,7 +34,7 @@ export default async function AuthenticationPage(props: {
         <div className="flex flex-col text-center">
           <h1 className="font-cal text-2xl text-foreground">Sign In</h1>
           <p className="mt-4 text-muted-foreground">
-            Your AI personal assistant for email.
+            Your AI personal assistant for email management.
           </p>
         </div>
         <div className="mt-4">
@@ -66,7 +66,7 @@ export default async function AuthenticationPage(props: {
         </p>
 
         <p className="px-4 pt-4 text-center text-sm text-muted-foreground">
-          Inbox Zero{"'"}s use and transfer of information received from Google
+          Tradiemate AI{"'"}s use and transfer of information received from Google
           APIs to any other app will adhere to{" "}
           <a
             href="https://developers.google.com/terms/api-services-user-data-policy"

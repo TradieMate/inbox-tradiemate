@@ -17,7 +17,7 @@ import {
   upgradeToPremiumLemon,
 } from "@/utils/premium/server";
 import type { Payload } from "@/app/api/lemon-squeezy/webhook/types";
-import { switchedPremiumPlan, startedTrial } from "@inboxzero/loops";
+import { switchedPremiumPlan, startedTrial } from "@tradiemate/loops";
 import { SafeError } from "@/utils/error";
 import { getLemonSubscriptionTier } from "@/app/(app)/premium/config";
 import { createScopedLogger } from "@/utils/logger";

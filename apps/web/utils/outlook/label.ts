@@ -1,6 +1,6 @@
 import type { OutlookClient } from "@/utils/outlook/client";
 import { createScopedLogger } from "@/utils/logger";
-import { publishArchive, type TinybirdEmailAction } from "@inboxzero/tinybird";
+import { publishArchive, type TinybirdEmailAction } from "@tradiemate/tinybird";
 import { inboxZeroLabels, type InboxZeroLabel } from "@/utils/label";
 
 const logger = createScopedLogger("outlook/label");

@@ -1,5 +1,5 @@
 import type { OutlookClient } from "@/utils/outlook/client";
-import { publishDelete, type TinybirdEmailAction } from "@inboxzero/tinybird";
+import { publishDelete, type TinybirdEmailAction } from "@tradiemate/tinybird";
 import { createScopedLogger } from "@/utils/logger";
 
 const logger = createScopedLogger("outlook/trash");

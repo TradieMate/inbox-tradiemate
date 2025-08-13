@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { handleLoopsEvents } from "./loops-events";
 
 // Mock the Loops functions
-vi.mock("@inboxzero/loops", () => ({
+vi.mock("@tradiemate/loops", () => ({
   createContact: vi.fn(),
   completedTrial: vi.fn(),
   startedTrial: vi.fn(),
@@ -23,7 +23,7 @@ import {
   completedTrial,
   startedTrial,
   cancelledPremium,
-} from "@inboxzero/loops";
+} from "@tradiemate/loops";
 
 describe("handleLoopsEvents", () => {
   beforeEach(() => {

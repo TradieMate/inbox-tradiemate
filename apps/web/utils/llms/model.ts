@@ -94,7 +94,7 @@ function selectModel(
         apiKey: aiApiKey || env.OPENROUTER_API_KEY,
         headers: {
           "HTTP-Referer": "https://www.getinboxzero.com",
-          "X-Title": "Inbox Zero",
+          "X-Title": "Tradiemate AI",
         },
       });
       const chatModel = openrouter.chat(model);

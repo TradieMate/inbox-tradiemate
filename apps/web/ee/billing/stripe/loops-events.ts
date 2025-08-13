@@ -3,7 +3,7 @@ import {
   completedTrial,
   startedTrial,
   cancelledPremium,
-} from "@inboxzero/loops";
+} from "@tradiemate/loops";
 import { createScopedLogger } from "@/utils/logger";
 
 const logger = createScopedLogger("stripe/syncStripeDataToDb");

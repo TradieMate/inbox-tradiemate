@@ -57,7 +57,7 @@ export function Hero(props: {
               >
                 <LayoutPanelTopIcon className="h-5 w-5 text-green-600" />
                 <p className="text-sm font-semibold text-green-600">
-                  Inbox Zero Tabs is live on Product Hunt!
+                  Tradiemate AI Tabs is live on Product Hunt!
                 </p>
               </a> */}
             </div>
@@ -70,7 +70,7 @@ export function Hero(props: {
             </HeroText>
             <HeroSubtitle>
               {props.subtitle ||
-                "Cut your email time in half. Inbox Zero intelligently automates responses, organizes your inbox, and helps you reach inbox zero in record time. For Gmail and Outlook."}
+                "Cut your email time in half. Tradiemate AI intelligently automates responses, organizes your inbox, and helps you reach tradiemate ai in record time. For Gmail and Outlook."}
             </HeroSubtitle>
             <CTAComponent />
           </div>

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { withEmailAccount } from "@/utils/middleware";
-import { getEmailActionsByDay } from "@inboxzero/tinybird";
+import { getEmailActionsByDay } from "@tradiemate/tinybird";
 
 export type EmailActionStatsResponse = Awaited<
   ReturnType<typeof getEmailActionStats>

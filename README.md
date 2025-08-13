@@ -1,28 +1,28 @@
-[![](apps/web/app/opengraph-image.png)](https://www.getinboxzero.com)
+[![](apps/web/app/opengraph-image.png)](https://www.tradiemate.ai)
 
 <p align="center">
-  <a href="https://www.getinboxzero.com">
-    <h1 align="center">Inbox Zero - Your AI Email Assistant</h1>
+  <a href="https://www.tradiemate.ai">
+    <h1 align="center">Tradiemate AI - Your AI Email Assistant</h1>
   </a>
   <p align="center">
-    Open source email app to reach inbox zero fast.
+    AI-powered email management for tradespeople and professionals.
     <br />
-    <a href="https://www.getinboxzero.com">Website</a>
+    <a href="https://www.tradiemate.ai">Website</a>
     ·
-    <a href="https://www.getinboxzero.com/discord">Discord</a>
+    <a href="https://www.tradiemate.ai/discord">Discord</a>
     ·
-    <a href="https://github.com/elie222/inbox-zero/issues">Issues</a>
+    <a href="https://github.com/TradieMate/inbox-tradiemate/issues">Issues</a>
   </p>
 </p>
 
 ## About
 
-There are two parts to Inbox Zero:
+Tradiemate AI is an AI-powered email management platform designed specifically for tradespeople and professionals:
 
-1. An AI email assistant that helps you spend less time on email.
-2. Open source AI email client.
+1. An AI email assistant that helps you spend less time on email management.
+2. Streamlined email workflows tailored for business communication.
 
-If you're looking to contribute to the project, the email client is the best place to do this.
+Perfect for contractors, tradespeople, and small business owners who need efficient email management.
 
 <br />
 <a href="https://vercel.com/oss">

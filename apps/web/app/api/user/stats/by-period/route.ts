@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import format from "date-fns/format";
 import { z } from "zod";
 import sumBy from "lodash/sumBy";
-import { zodPeriod } from "@inboxzero/tinybird";
+import { zodPeriod } from "@tradiemate/tinybird";
 import { withEmailAccount } from "@/utils/middleware";
 import prisma from "@/utils/prisma";
 import { Prisma } from "@prisma/client";

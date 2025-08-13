@@ -1,0 +1,44 @@
+
+> tradiemate-ai@1.0.0 dev
+> cross-env NODE_OPTIONS=--max_old_space_size=16384 next dev --turbopack --port 12001 --hostname 0.0.0.0
+
+   ▲ Next.js 15.3.3 (Turbopack)
+   - Local:        http://localhost:12001
+   - Network:      http://0.0.0.0:12001
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled instrumentation Node.js in 25ms
+ ✓ Compiled instrumentation Edge in 394ms
+ ✓ Ready in 1886ms
+ ○ Compiling / ...
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ✓ Compiled / in 15.4s
+ GET / 307 in 16929ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 5.4s
+(node:25989) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ GET /login 200 in 6020ms
+ ⚠ Cross origin request detected from work-2-czvqkhgekjxkihpp.prod-runtime.all-hands.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /api/user/email-accounts ...
+ GET / 307 in 365ms
+[TypeError: controller[kState].transformAlgorithm is not a function]
+[TypeError: controller[kState].transformAlgorithm is not a function]
+ GET /login 200 in 427ms
+ ✓ Compiled /api/user/email-accounts in 8.7s
+ GET /api/user/email-accounts 401 in 2457ms
+ GET /api/auth/session 200 in 2998ms
+ GET /api/auth/session 200 in 217ms
+ ○ Compiling /home ...
+ ✓ Compiled /home in 5.6s
+ GET /home 307 in 5856ms
+[TypeError: controller[kState].transformAlgorithm is not a function]
+[TypeError: controller[kState].transformAlgorithm is not a function]
+ GET /login 200 in 304ms
+ GET /api/auth/session 200 in 278ms
+ GET /api/user/email-accounts 401 in 408ms
+ GET /api/auth/session 200 in 133ms

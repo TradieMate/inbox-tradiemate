@@ -70,8 +70,8 @@ export function Referrals() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Join Inbox Zero with my referral link",
-          text: "Use my referral link to get started with Inbox Zero!",
+          title: "Join Tradiemate AI with my referral link",
+          text: "Use my referral link to get started with Tradiemate AI!",
           url: link,
         });
       } catch (error) {
@@ -102,7 +102,7 @@ export function Referrals() {
           Refer Friends, Get Rewards
         </h1>
         <p className="mt-4 text-lg text-gray-600">
-          Share Inbox Zero with friends and get a free month for each friend who
+          Share Tradiemate AI with friends and get a free month for each friend who
           completes their trial
         </p>
       </div>

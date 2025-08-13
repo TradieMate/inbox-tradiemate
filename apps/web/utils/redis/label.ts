@@ -51,7 +51,7 @@ export async function deleteUserLabels({
   return redis.del(key);
 }
 
-// inbox zero labels
+// tradiemate ai labels
 function getInboxZeroLabelsKey({ emailAccountId }: { emailAccountId: string }) {
   return `labels:inboxzero:${emailAccountId}`;
 }

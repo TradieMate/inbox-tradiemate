@@ -1,5 +1,5 @@
 {
-  "name": "inbox-zero",
+  "name": "tradiemate-ai",
   "private": true,
   "scripts": {
     "build": "turbo build --filter=./apps/web",

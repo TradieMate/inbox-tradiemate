@@ -127,7 +127,7 @@ function AddEmailAccount({
         <DialogHeader>
           <DialogTitle>Add {name} Account</DialogTitle>
           <DialogDescription>
-            Does the account you want to add already have an Inbox Zero account?
+            Does the account you want to add already have an Tradiemate AI account?
             If yes, we'll link it to your current account.
           </DialogDescription>
         </DialogHeader>

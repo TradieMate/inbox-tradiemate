@@ -1,8 +1,8 @@
-import { deleteContact as deleteLoopsContact } from "@inboxzero/loops";
-import { deleteContact as deleteResendContact } from "@inboxzero/resend";
+import { deleteContact as deleteLoopsContact } from "@tradiemate/loops";
+import { deleteContact as deleteResendContact } from "@tradiemate/resend";
 import prisma from "@/utils/prisma";
 import { deleteInboxZeroLabels, deleteUserLabels } from "@/utils/redis/label";
-import { deleteTinybirdAiCalls } from "@inboxzero/tinybird-ai-analytics";
+import { deleteTinybirdAiCalls } from "@tradiemate/tinybird-ai-analytics";
 import { deletePosthogUser, trackUserDeleted } from "@/utils/posthog";
 import { captureException } from "@/utils/error";
 import { unwatchEmails } from "@/app/api/watch/controller";

@@ -1,8 +1,8 @@
 const faqs = [
   {
-    question: "Can I still use Inbox Zero alongside my current email client?",
+    question: "Can I still use Tradiemate AI alongside my current email client?",
     answer:
-      "Yes! Inbox Zero is intended to be used alongside your existing email client.",
+      "Yes! Tradiemate AI is intended to be used alongside your existing email client.",
   },
   {
     question: "Is the code open-source?",
@@ -48,7 +48,7 @@ const faqs = [
     ),
   },
   {
-    question: "Which email providers does Inbox Zero support?",
+    question: "Which email providers does Tradiemate AI support?",
     answer:
       "We support Gmail, Google Workspace, and Microsoft Outlook email accounts.",
   },

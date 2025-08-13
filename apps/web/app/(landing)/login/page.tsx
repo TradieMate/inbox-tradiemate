@@ -50,36 +50,6 @@ export default async function AuthenticationPage(props: {
         {searchParams?.error && (
           <ErrorAlert error={searchParams?.error} loggedIn={!!session?.user} />
         )}
-
-        <p className="px-8 pt-10 text-center text-sm text-gray-400">
-          By clicking continue, you agree to our{" "}
-          <Link
-            href="/terms"
-            className="underline underline-offset-4 hover:text-gray-200"
-          >
-            Terms of Service
-          </Link>{" "}
-          and{" "}
-          <Link
-            href="/privacy"
-            className="underline underline-offset-4 hover:text-gray-200"
-          >
-            Privacy Policy
-          </Link>
-          .
-        </p>
-
-        <p className="px-4 pt-4 text-center text-sm text-gray-400">
-          Tradiemate AI{"'"}s use and transfer of information received from Google
-          APIs to any other app will adhere to{" "}
-          <a
-            href="https://developers.google.com/terms/api-services-user-data-policy"
-            className="underline underline-offset-4 hover:text-gray-200"
-          >
-            Google API Services User Data
-          </a>{" "}
-          Policy, including the Limited Use requirements.
-        </p>
       </div>
     </div>
   );

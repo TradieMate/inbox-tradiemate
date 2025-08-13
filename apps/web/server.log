@@ -33,3 +33,27 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET /api/user/email-accounts 401 in 176ms
  GET /api/auth/session 200 in 350ms
  GET /api/auth/session 200 in 133ms
+ ✓ Compiled in 1054ms
+ ✓ Compiled /login in 146ms
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <img src=... alt=... className=... onError={function onError}>
+                                             ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '4010742334'
+}
+ GET /login 200 in 1106ms
+ ✓ Compiled in 760ms
+ ✓ Compiled /login in 91ms
+ GET /login 200 in 775ms
+ ✓ Compiled in 726ms
+ ✓ Compiled /login in 91ms
+ GET /login 200 in 720ms
+ ✓ Compiled in 1144ms
+ ✓ Compiled /login in 101ms
+ GET /login 200 in 741ms
+ GET /login 200 in 393ms
+ GET /api/user/email-accounts 401 in 201ms
+ GET /api/auth/session 200 in 375ms
+ GET /api/auth/session 200 in 170ms

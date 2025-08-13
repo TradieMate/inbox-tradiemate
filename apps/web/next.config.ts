@@ -24,6 +24,7 @@ const nextConfig: NextConfig = {
       },
     },
   },
+
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   images: {
     remotePatterns: [
@@ -41,7 +42,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "images.getinboxzero.com",
+        hostname: "images.tradiemate.ai",
       },
     ],
   },
@@ -93,52 +94,52 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/feature-requests",
-        destination: "https://go.getinboxzero.com/feature-requests",
+        destination: "https://tradiemate.ai/feature-requests",
         permanent: true,
       },
       {
         source: "/feedback",
-        destination: "https://go.getinboxzero.com/feedback",
+        destination: "https://tradiemate.ai/feedback",
         permanent: true,
       },
       {
         source: "/changelog",
-        destination: "https://go.getinboxzero.com/changelog",
+        destination: "https://tradiemate.ai/changelog",
         permanent: true,
       },
       {
         source: "/twitter",
-        destination: "https://go.getinboxzero.com/x",
+        destination: "https://twitter.com/tradiemate_ai",
         permanent: true,
       },
       {
         source: "/github",
-        destination: "https://go.getinboxzero.com/github",
+        destination: "https://github.com/TradieMate",
         permanent: true,
       },
       {
         source: "/discord",
-        destination: "https://go.getinboxzero.com/discord",
+        destination: "https://tradiemate.ai/discord",
         permanent: true,
       },
       {
         source: "/linkedin",
-        destination: "https://go.getinboxzero.com/linkedin",
+        destination: "https://tradiemate.ai/linkedin",
         permanent: true,
       },
       {
         source: "/waitlist",
-        destination: "https://go.getinboxzero.com/waitlist",
+        destination: "https://tradiemate.ai/waitlist",
         permanent: true,
       },
       {
         source: "/waitlist-other",
-        destination: "https://go.getinboxzero.com/waitlist-other",
+        destination: "https://tradiemate.ai/waitlist-other",
         permanent: false,
       },
       {
         source: "/affiliates",
-        destination: "https://go.getinboxzero.com/affiliate",
+        destination: "https://tradiemate.ai/affiliate",
         permanent: true,
       },
       {
@@ -158,12 +159,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/game",
-        destination: "https://go.getinboxzero.com/game",
+        destination: "https://tradiemate.ai/game",
         permanent: false,
       },
       {
         source: "/soc2",
-        destination: "https://go.getinboxzero.com/soc2",
+        destination: "https://tradiemate.ai/soc2",
         permanent: true,
       },
     ];

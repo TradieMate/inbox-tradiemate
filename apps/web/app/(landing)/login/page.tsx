@@ -8,6 +8,7 @@ import AutoLogOut from "@/app/(landing)/login/error/AutoLogOut";
 import { AlertBasic } from "@/components/Alert";
 import { env } from "@/env";
 import { Button } from "@/components/ui/button";
+import { Logo } from "@/components/Logo";
 
 export const metadata: Metadata = {
   title: "Log in | Tradiemate AI",
@@ -29,11 +30,14 @@ export default async function AuthenticationPage(props: {
   }
 
   return (
-    <div className="flex h-screen flex-col justify-center text-foreground">
+    <div className="flex h-screen flex-col justify-center bg-gray-900 text-foreground">
       <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
-        <div className="flex flex-col text-center">
-          <h1 className="font-cal text-2xl text-foreground">Sign In</h1>
-          <p className="mt-4 text-muted-foreground">
+        <div className="flex flex-col items-center text-center">
+          <div className="mb-6">
+            <Logo />
+          </div>
+          <h1 className="font-cal text-2xl text-white">Sign In</h1>
+          <p className="mt-4 text-gray-300">
             Your AI personal assistant for email management.
           </p>
         </div>
@@ -46,36 +50,6 @@ export default async function AuthenticationPage(props: {
         {searchParams?.error && (
           <ErrorAlert error={searchParams?.error} loggedIn={!!session?.user} />
         )}
-
-        <p className="px-8 pt-10 text-center text-sm text-muted-foreground">
-          By clicking continue, you agree to our{" "}
-          <Link
-            href="/terms"
-            className="underline underline-offset-4 hover:text-foreground"
-          >
-            Terms of Service
-          </Link>{" "}
-          and{" "}
-          <Link
-            href="/privacy"
-            className="underline underline-offset-4 hover:text-foreground"
-          >
-            Privacy Policy
-          </Link>
-          .
-        </p>
-
-        <p className="px-4 pt-4 text-center text-sm text-muted-foreground">
-          Tradiemate AI{"'"}s use and transfer of information received from Google
-          APIs to any other app will adhere to{" "}
-          <a
-            href="https://developers.google.com/terms/api-services-user-data-policy"
-            className="underline underline-offset-4 hover:text-foreground"
-          >
-            Google API Services User Data
-          </a>{" "}
-          Policy, including the Limited Use requirements.
-        </p>
       </div>
     </div>
   );

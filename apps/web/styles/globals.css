@@ -115,3 +115,35 @@ div[data-turbopack-dev-tools],
 div[data-nextjs-turbopack-dev-tools] {
   display: none !important;
 }
+
+/* Hide all dev tools buttons and containers */
+button[aria-label="Open Next.js Dev Tools"] {
+  display: none !important;
+}
+
+/* Hide any fixed positioned element in bottom right that looks like dev tools */
+div[style*="position: fixed"][style*="bottom"][style*="right"] button {
+  display: none !important;
+}
+
+/* Nuclear option - hide all dev tools related elements */
+[data-nextjs-dev-tools],
+[data-nextjs-dev-tools] *,
+div:has(button[aria-label*="Dev Tools"]) {
+  display: none !important;
+}
+
+/* Target the specific dev tools structure */
+div > div > div > div > div > button[aria-label="Open Next.js Dev Tools"] {
+  display: none !important;
+}
+
+/* Hide the entire dev tools container */
+div:has(> div > div > div > div > button[aria-label="Open Next.js Dev Tools"]) {
+  display: none !important;
+}
+
+/* Alternative approach - hide by position and content */
+div[style*="position"][style*="fixed"] button[aria-label*="Next.js"] {
+  display: none !important;
+}

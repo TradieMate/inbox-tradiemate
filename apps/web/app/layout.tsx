@@ -103,6 +103,34 @@ export default async function RootLayout({
         {env.NEXT_PUBLIC_GTM_ID ? (
           <GoogleTagManager gtmId={env.NEXT_PUBLIC_GTM_ID} />
         ) : null}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Hide Next.js dev tools
+              function hideDevTools() {
+                const devToolsButton = document.querySelector('button[aria-label="Open Next.js Dev Tools"]');
+                if (devToolsButton) {
+                  const container = devToolsButton.closest('div[style*="position"][style*="fixed"]');
+                  if (container) {
+                    container.style.display = 'none';
+                  } else {
+                    devToolsButton.style.display = 'none';
+                  }
+                }
+              }
+              
+              // Run immediately and on DOM changes
+              hideDevTools();
+              if (typeof window !== 'undefined') {
+                const observer = new MutationObserver(hideDevTools);
+                observer.observe(document.body, { childList: true, subtree: true });
+                setTimeout(hideDevTools, 100);
+                setTimeout(hideDevTools, 500);
+                setTimeout(hideDevTools, 1000);
+              }
+            `,
+          }}
+        />
       </body>
     </html>
   );

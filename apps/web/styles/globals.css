@@ -93,3 +93,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Hide Next.js dev tools in production */
+[data-nextjs-dev-tools] {
+  display: none !important;
+}
+
+/* Alternative selector for Next.js dev tools */
+button[aria-label*="Next.js Dev Tools"],
+button[aria-label*="Open Next.js Dev Tools"] {
+  display: none !important;
+}
+
+/* Hide the entire dev tools container */
+div[style*="position: fixed"][style*="bottom: 0"][style*="right: 0"] {
+  display: none !important;
+}
+
+/* More specific selector for Turbopack dev tools */
+div[data-turbopack-dev-tools],
+div[data-nextjs-turbopack-dev-tools] {
+  display: none !important;
+}

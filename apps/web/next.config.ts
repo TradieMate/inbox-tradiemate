@@ -24,11 +24,7 @@ const nextConfig: NextConfig = {
       },
     },
   },
-  experimental: {
-    turbo: {
-      devTools: false,
-    },
-  },
+
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   images: {
     remotePatterns: [
